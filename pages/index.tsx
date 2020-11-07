@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
-import Layout from 'components/Layout';
-import Bio from 'components/Bio';
-import SEO from 'components/Seo';
-import { getSortedPosts } from 'utils/posts';
+import Layout from '../components/Layout';
+import Bio from '../components/Bio';
+import SEO from '../components/Seo';
+import { getSortedPosts } from '../utils/posts';
 
 export default function Home({ posts }) {
     return (
@@ -19,7 +19,7 @@ export default function Home({ posts }) {
                                     href={'/post/[slug]'}
                                     as={`/post/${slug}`}
                                 >
-                                    <a className="text-4xl font-bold text-orange-600 font-display">
+                                    <a className="text-4xl font-bold text-blue-600 font-display">
                                         {title}
                                     </a>
                                 </Link>

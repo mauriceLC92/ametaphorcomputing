@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { getSiteMetaData } from 'utils/helpers';
+import { getSiteMetaData } from '../utils/helpers';
 
 export default function SEO({ title, description = '' }) {
     const siteMetadata = getSiteMetaData();
