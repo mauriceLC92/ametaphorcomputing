@@ -4,11 +4,11 @@ description: Mandatory hello world post.
 date: 2020-11-07T11:00:00.000Z
 ---
 
-# h1
+# Welcome, this is an h1
 
-## h2
+## A secondary h2 example
 
-### h3
+### Lastly, an h3 for your viewing pleasure
 
 Normal text
 
