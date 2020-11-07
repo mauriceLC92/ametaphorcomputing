@@ -23,7 +23,10 @@ const defaultSerif = [
 ];
 
 module.exports = {
-    purge: ['./**/{pages,components,tailwind}/**/*.{js,jsx,ts,tsx,css}'],
+    purge: {
+        enabled: true,
+        content: ['./**/{pages,components,tailwind}/**/*.{js,jsx,ts,tsx,css}'],
+    },
     theme: {
         extend: {
             colors: {
