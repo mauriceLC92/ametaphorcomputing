@@ -1,7 +1,7 @@
 ---
 title: Hello world
-description: The first post is the most memorable one.
-date: 2020-04-16T11:00:00.000Z
+description: Mandatory hello world post.
+date: 2020-11-07T11:00:00.000Z
 ---
 
 # h1
