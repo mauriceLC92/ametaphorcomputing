@@ -1,5 +1,5 @@
 ---
-title: First post
+title: Hello world
 description: The first post is the most memorable one.
 date: 2020-04-16T11:00:00.000Z
 ---
