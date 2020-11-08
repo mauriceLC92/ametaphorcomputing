@@ -8,7 +8,7 @@ export default function Layout({ children }) {
     const header = isRoot ? (
         <h1 className="mb-8">
             <Link href="/">
-                <a className="font-black leading-none text-black no-underline text-7xl font-display">
+                <a className="font-black leading-none text-black no-underline text-3xl font-display sm:text-6xl">
                     {blogTitle}
                 </a>
             </Link>
