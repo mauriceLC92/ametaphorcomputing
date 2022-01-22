@@ -1337,6 +1337,30 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.17.40.tgz#8a50e47daff15fd4a89dc56f5221b3729e506be6"
   integrity sha512-3hZT2z2/531A5pc8hYhn1gU5Qb1SIRSgMLQ6zuHA5xtt16lWAxUGprtr8lJuc9zNJMXEIIBWfSnzqBP/4mglpA==
 
+"@types/node@^14.14.6":
+  version "14.18.9"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.9.tgz#0e5944eefe2b287391279a19b407aa98bd14436d"
+  integrity sha512-j11XSuRuAlft6vLDEX4RvhqC0KxNxx6QIyMXNb0vHHSNPXTPeiy3algESWmOOIzEtiEL0qiowPU3ewW9hHVa7Q==
+
+"@types/prop-types@*":
+  version "15.7.4"
+  resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
+  integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
+
+"@types/react@^16.9.56":
+  version "16.14.21"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.21.tgz#35199b21a278355ec7a3c40003bd6a334bd4ae4a"
+  integrity sha512-rY4DzPKK/4aohyWiDRHS2fotN5rhBSK6/rz1X37KzNna9HJyqtaGAbq9fVttrEPWF5ywpfIP1ITL8Xi2QZn6Eg==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/scheduler@*":
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
+  integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
+
 "@types/unist@*", "@types/unist@^2.0.0", "@types/unist@^2.0.2", "@types/unist@^2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@types/unist/-/unist-2.0.3.tgz#9c088679876f374eb5983f150d4787aa6fb32d7e"
@@ -2829,6 +2853,11 @@ cssnano-simple@1.2.0:
   dependencies:
     cssnano-preset-simple "1.2.0"
     postcss "^7.0.32"
+
+csstype@^3.0.2:
+  version "3.0.10"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.10.tgz#2ad3a7bed70f35b965707c092e5f30b327c290e5"
+  integrity sha512-2u44ZG2OcNUO9HDp/Jl8C07x6pU/eTR3ncV91SiK3dhG9TWvRVsCoJw14Ckx5DgWkzGA3waZWO3d7pgqpUI/XA==
 
 currently-unhandled@^0.4.1:
   version "0.4.1"
@@ -5553,9 +5582,9 @@ nan@^2.12.1:
   integrity sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
 
 nanoid@^3.1.12:
-  version "3.1.16"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.16.tgz#b21f0a7d031196faf75314d7c65d36352beeef64"
-  integrity sha512-+AK8MN0WHji40lj8AEuwLOvLSbWYApQpre/aFJZD71r43wVRLrOYS4FmJOPQYon1TqB462RzrrxlfA74XRES8w==
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.2.0.tgz#62667522da6673971cca916a6d3eff3f415ff80c"
+  integrity sha512-fmsZYa9lpn69Ad5eDn7FMcnnSR+8R34W9qJEijxYhTbfOWzr22n1QxCMzXLK+ODyW2973V3Fux959iQoUxzUIA==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -6762,6 +6791,11 @@ prepend-http@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
+
+prettier@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.1.2.tgz#3050700dae2e4c8b67c4c3f666cdb8af405e1ce5"
+  integrity sha512-16c7K+x4qVlJg9rEbXl7HEGmQyZlG4R9AgP+oHKRMsMsuk8s+ATStlf1NpDqyBI1HpVyfjLOeMhH2LvuNvV5Vg==
 
 pretty-hrtime@^1.0.3:
   version "1.0.3"
@@ -8299,6 +8333,11 @@ typeface-open-sans@^1.1.13:
   version "1.1.13"
   resolved "https://registry.yarnpkg.com/typeface-open-sans/-/typeface-open-sans-1.1.13.tgz#32a09ebd7df59601e01ad81216f98ce641eeafd1"
   integrity sha512-lVGVHvYl7UJDFB9vN8r7NHw3sVm7Rjeow6b9AeABc/J+2mDaCkmcdVtw3QZnsJW39P+xm5zeggIj9gLHYGn9Iw==
+
+typescript@^4.0.5:
+  version "4.5.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.5.tgz#d8c953832d28924a9e3d37c73d729c846c5896f3"
+  integrity sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==
 
 unbzip2-stream@^1.0.9:
   version "1.4.3"
